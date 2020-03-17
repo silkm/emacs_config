@@ -18,3 +18,9 @@ The config in short
 * Editors and configs
 * Org-mode
 * Custom-set-variables, custom-set-faces
+
+## How to use
+
+Create a directory `~/.emacs.d/` and place `init.el` inside there. Install and open GNU Emacs and it will automatically load init.el and install all packages to `~/.emacs.d/`.
+
+Everything should work out of the box, you will need to change the customisation settings to suit you depending on what you use it for. ie. if you open an R script, it will set the *major mode* to `ess` and use the configuration in `init.el`, including which R instance to use, so that's something you may need to change.
