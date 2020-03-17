@@ -1,0 +1,14 @@
+.emacs.desktop
+straight/
+auto-save-list/
+elpa/
+eshell/
+tramp
+/bookmarks
+/.org-id-locations
+/elisp/
+/org-gcal/
+/projectile-bookmarks.eld
+/recentf
+/session*
+/transient/
